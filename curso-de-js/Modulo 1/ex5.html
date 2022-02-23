@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Em aula</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+   </head>
+   <style>
+       section{
+           padding: 10px;
+       }
+        #cx{
+            background-color: azure;
+            border-radius: 10px;
+            height: 400px;
+        }
+        #cx1{
+            border-bottom: black solid 2px;
+            padding: center;
+            font: normal times 14pt;
+        }
+        #code{
+            background-color: chartreuse;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            line-height: 150px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px 0 green;
+        }
+        #code:active{
+            box-shadow: 0px 0px 0px green, inset 3px 3px 3px green;
+        }
+        body{
+            background-color: #add8e6;
+        }
+   </style>
+<body>
+    <section id="cx">
+        <h1>Testando Codigos</h1>
+        <div id="code" onclick="rosa()" onmouseenter="rosa2()" onmouseout="rosa3()" onmousemove="rosa4()" onmousedown="rosa5()">
+        <p><strong>Click aqui!</strong></p>
+        </div>
+        <script>
+            function rosa(){
+                let v = window.document.getElementById('code')
+                v.innerText = 'Clicou'
+                v.style.color = 'red'
+            }
+            function rosa2(){
+                let v2 = window.document.getElementById('code')
+                v2.style.backgroundColor = 'green'
+            }
+            function rosa3(){
+                let v3 =  window.document.getElementById('code')
+                v3.style.backgroundColor = 'chartreuse'
+                let v4 = window.document.getElementById('code')
+                v4.style.color = 'black'
+                let v5 = window.document.getElementById('code')
+                v5.innerHTML = 'Click aqui!'
+            }
+            function rosa4(){   //Quero quue esse bloco seja executado apenas se o rosa() nao for
+                let v6 = window.document.getElementById('code')
+                v6.innerText = 'Aperte logo!'
+            }
+            function rosa5(){
+                let v7 = window.document.getElementById('code')
+                v7.innerText = 'Agora solte'
+            }
+        </script>
+    </section>
+</body>
+</html> 

@@ -1,0 +1,54 @@
+body{
+    background-color:  #4b78cc;
+    font: normal 14pt arial;
+}
+#seçao{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+    padding-top: 10px;
+    padding-left: 10px;
+    font: normal 13pt arial;
+}
+#h1{
+    color: #ffffff;
+    margin-left: 500px;
+
+}
+#p{
+    color: #ffffff;
+    margin-left: 640px;
+    margin-top: 150px;
+    font-style: italic;
+}
+#anoDeNa{
+    margin-left: 2px;
+}
+#sexo{
+    margin-top: 10px;
+}
+#botao{
+    margin-top: 20px;
+}
+#texto{
+    text-align: center;
+}
+#img{
+    text-align: center;
+    height: 200px;
+}
+#h2{
+    font: normal 14pt arial;
+}
+#cx2{
+    text-align: center;
+    height: 100px;
+}
+#div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}

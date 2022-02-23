@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aula 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+   </head>
+   <style>
+        #seçao{
+            background-color: azure;
+            border-radius: 10px;
+            height: 500px;
+            width: 350px;
+            margin-left: 510px;
+            margin-top: 35px;
+            opacity: 0.9;
+        }
+        #cx1{
+            border-bottom: black solid 2px;
+            padding: center;
+            font: normal times 14pt;
+            padding-left: 10px;
+            padding-top: 2px;
+            text-align: center;
+        }
+        #cx2{
+            text-align: center;
+            padding: 20px;
+        }
+        #ncx{
+            margin-top: 5px;
+        }
+        #color{
+            margin-top: 5px;
+        }
+        #botao{
+            margin-top: 5px;
+        }
+        #resN{
+            margin-top: 20px;
+        }
+        body{
+            background-color: #add8e6;
+        }
+   </style>
+<body>
+    <section id="seçao">
+        <div id="cx1">
+        <h1>Testando Codigos</h1>
+        </div>
+        <div id="cx2">
+           <input type="text" placeholder="Digite seu nome" id="nome">
+           <input type="button" value="Click Aqui" onclick="clicar()">
+           <p id="texto">O nome vai aqui</p>
+        </div>
+        <script>
+            function clicar(){
+                let nomeJs = window.document.getElementById('nome').value
+                let textoJs = window.document.getElementById('texto')
+                textoJs.innerText = `Ola ${nomeJs}`
+            }
+        </script>
+    </section>
+</body>
+</html> 

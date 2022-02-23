@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    font: normal 14pt arial;
+}
+div{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 270px;
+}
+#secaoprincipal{
+    background-color: beige;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 0px black;
+}
+#secao{
+    background-color: beige;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 0px black;
+}
+#texto{
+    font-size: 13.5pt;
+}
+#caixa{
+    margin-top: 100px;
+}
+#botao{
+    margin-left: 5px;
+    border-radius: 30px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: tomato;
+    border: tomato;
+    width: 25px;
+    height: 25px;
+    box-shadow: 1px 1px 1px 0px black;
+}
+#botao:active{
+    box-shadow: 0px 0px 0px 0px black, inset 3px 3px 3px black;
+}
+#divisao1{
+    font: normal 12pt serif;
+    border-right: solid 2px gray ;
+}
+#divisao2{
+    font: normal 12pt serif;
+    border-right: solid 2px gray ;
+}
+#divisao3{
+    font: normal 12pt serif;
+    border-right: solid 2px gray ;
+}
+#divisao4{
+    font: normal 12pt serif;
+}
+#rodape{
+    text-align: center;
+    font-style: italic;
+    color: beige;
+    font-size: 14pt;
+}
+#rodape2{
+    text-align: center;
+    font-style: italic;
+    margin-top: -230px;
+    color: beige;
+    font-size: 14pt;
+}
+#cabecalho{
+    text-align: center;
+    color: beige;
+    font-size: 14pt;
+}
+#divisaorep{
+    font: normal 12pt serif;
+    color: beige;
+}
+

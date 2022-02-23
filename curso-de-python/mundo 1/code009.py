@@ -1,0 +1,6 @@
+n = input('Digite qualquer coisa: ')
+print(type(n))
+print(n.isalnum())
+print(n.isalpha())
+print(n.isnumeric())
+print(n.isdecimal())

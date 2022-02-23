@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Em aula</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+   </head>
+   <style>
+        #seçao{
+            background-color: azure;
+            border-radius: 10px;
+            height: 500px;
+            width: 350px;
+            margin-left: 510px;
+            margin-top: 35px;
+            opacity: 0.9;
+        }
+        #cx1{
+            border-bottom: black solid 2px;
+            padding: center;
+            font: normal times 14pt;
+            padding-left: 10px;
+            padding-top: 200px;
+            text-align: center;
+        }
+        #ponto{
+            margin: 280px 10px auto auto;
+            background-color: black;
+            height: 40px;
+            width: 40px;
+        }
+        #code{
+            background-color: chartreuse;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            line-height: 150px;
+        }
+        body{
+            background-color: #add8e6;
+        }
+   </style>
+<body>
+    <section id="seçao">
+        <h1>Testando Codigos</h1>
+        <h2 id="nome">Aqui vai o nome</h2>
+        <div id="ponto">.</div>
+        <script>
+            let name = window.prompt('Ola qual e o seu nome?')
+            let cor = window.prompt(`Ola ${name} qual e a sua cor preferida`)
+            let color = cor.toUpperCase()
+
+            if(color == 'AZUL'){
+                let nameAzul = window.document.getElementById('nome')
+                nameAzul.innerText = name
+                nameAzul.style.color = 'blue'
+                document.write(`${nameAzul}`)
+                let bx = window.document.querySelector('div#ponto')
+                bx.style.backgroundColor = 'blue'
+                let corpo = window.document.getElementsByTagName('body')[0]
+                corpo.style.backgroundColor = 'blue'
+            }
+            else if(color == 'VERMELHO'){
+                let nameVer = window.document.getElementById('nome')
+                nameVer.innerText = name
+                nameVer.style.color = 'red'
+                document.write(`${nameVer}`)
+                let bx = window.document.querySelector('div#ponto')
+                bx.style.backgroundColor = 'red'
+                let corpo = window.document.getElementsByTagName('body')[0]
+                corpo.style.backgroundColor = 'red' 
+            }
+            else if(color == 'AMARELO'){
+                let nameAma = window.document.getElementById('nome')
+                nameAma.innerText = name
+                nameAma.style.color = 'yellow'
+                document.write(`${nameAma}`)
+                let bx = window.document.querySelector('div#ponto')
+                bx.style.backgroundColor = 'yellow'
+                let corpo = window.document.getElementsByTagName('body')[0]
+                corpo.style.backgroundColor = 'yellow'
+            }
+            else if(color == 'VERDE'){
+                let nameV = window.document.getElementById('nome')
+                nameV.innerText = name
+                nameV.style.color = 'green'
+                document.write(`${nameV}`)
+                let bx = window.document.querySelector('div#ponto')
+                bx.style.backgroundColor = 'green'
+                let corpo = window.document.getElementsByTagName('body')[0]
+                corpo.style.backgroundColor = 'green'
+            }
+            else if(color == 'ROSA'){
+                let nameRo = window.document.getElementById('nome')
+                nameRo.innerText = name
+                nameRo.style.color = 'pink'
+                document.write(`${nameRo}`)
+                let bx = window.document.querySelector('div#ponto')
+                bx.style.backgroundColor = 'pink'
+                let corpo = window.document.getElementsByTagName('body')[0]
+                corpo.style.backgroundColor = 'pink'
+            }
+            else if(color == 'MARROM'){
+                let nameMa = window.document.getElementById('nome')
+                name.innerText = name
+                nameMa.style.color = 'brown'
+                document.write(`${nameMa}`)
+                let bx = window.document.querySelector('div#ponto')
+                bx.style.backgroundColor = 'brown'
+                let corpo = window.document.getElementsByTagName('body')[0]
+                corpo.style.backgroundColor = 'brown'
+            }
+        </script>
+    </section>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+#seçao{
+    background-color: azure;
+    border-radius: 10px;
+    height: 500px;
+    width: 350px;
+    margin-left: 510px;
+    margin-top: 35px;
+    opacity: 0.9;
+}
+#cx1{
+    border-bottom: black solid 2px;
+    padding: center;
+    font: normal times 14pt;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-align: center;
+}
+#cx2{
+    text-align: center;
+    padding: 20px;
+}
+#botao{
+    margin-top: 20px;
+}
+#paisAtual{
+    margin-top: 3px;
+}
+#res{
+    margin-top: 5px;
+}
+body{
+    background-color: #add8e6;
+}

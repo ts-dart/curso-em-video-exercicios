@@ -1,0 +1,47 @@
+#seçao{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px black;
+}
+#cx1{
+    padding: center;
+    font: normal times 14pt;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-align: center;
+}
+#cx2{
+    text-align: center;
+    padding: 20px;
+}
+#divh1{
+    margin-left: 570px;
+    margin-right: auto;
+    color: #FFFFFF;
+    font: normal 14pt arial;
+}
+#h2{
+    font: normal 14pt arial;
+}
+#p{
+    font-size: 12pt;
+    color: #ffffff;
+    margin-left: 640px;
+    margin-top: 140px;
+    font-style: italic;
+}
+#img{
+    margin-top: 30px;
+}
+#h3{
+    margin-top: 50px;
+    font: normal 14pt arial;
+}
+body{
+    background-color: #3b6ecc;
+}

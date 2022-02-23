@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Em aula</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+   </head>
+   <style>
+        #cx{
+            background-color: azure;
+            border-radius: 10px;
+            height: 400px;
+        }
+        #cx1{
+            border-bottom: black solid 2px;
+            padding: center;
+            font: normal times 14pt;
+        }
+        body{
+            background-color: #add8e6;
+        }
+   </style>
+<body>
+    <section id="cx">
+        <h1>Testando Codigos</h1>
+        <script>
+                let n1 = Number(window.prompt('Digite um numero'))
+                let n2 = Number(window.prompt('Digite outro numero'))
+                let resp = window.prompt('Voçe quer: Somar, Subtrair, Mutiplicar, Dividir?')
+                let resp2 = resp.toUpperCase()
+
+                if(resp2 == 'SOMAR'){
+                    resFinal = n1 + n2
+                    document.write(`O resutado e ${resFinal}`)
+                }
+                else if(resp2 == 'SUBTRAIR'){
+                    resFinal = n1 - n2
+                    document.write(`O resutado e ${resFinal}`)
+                }
+                else if(resp2 == 'MUTIPLICAR'){
+                    resFinal = n1 * n2
+                    document.write(`O resutado e ${resFinal}`)
+                }
+                else if(resp2 == 'DIVIDIR'){
+                    resFinal = n1 / n2
+                    document.write(`O resutado e ${resFinal}`)
+                }
+
+                let resp3 = window.prompt('Voce quer saber mais SIM ou NAO?')
+                let resp4 = resp3.toUpperCase()
+                if(resp4 == 'SIM'){
+                    let resp5 = window.prompt('Do primeiro ou do segundo numero')
+                    let resp6= resp5.toUpperCase()
+                    if(resp6 == 'PRIMEIRO'){
+                        let resp7 = window.prompt('Potencia ou resto')
+                        let resp8 = resp7.toUpperCase()
+                        if(resp8 == 'POTENCIA'){
+                            let resFinal2 = n1 ** n1 
+                            document.write(`o Resutadoe ${resFinal2}`)
+                        }
+                        else if(resp8 == 'RESTO'){
+                            let resFinal2 = n1 % n1
+                            document.write(`o Resutadoe ${resFinal2}`)
+                        }
+                    }
+                    if (resp6 == 'SEGUNDO'){
+                        let resp9 = window.prompt('Potencia ou resto')
+                        let resp10 = resp9.toUpperCase()
+                        if(resp10 == 'POTENCIA'){
+                            let resFinal3 = n2 ** n2
+                            document.write(`o Resutadoe ${resFinal3}`) 
+                        }
+                        else if(resp10 == 'RESTO'){
+                            let resFinal3 = n2 % n2
+                            document.write(`o Resutadoe ${resFinal3}`)
+
+                        }
+                    }
+                } 
+         </script>
+    </section>
+</body>
+</html> 
+
